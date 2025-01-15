@@ -41,7 +41,13 @@ sudo apt install python3 python3-pip
 5. Install the Paho-MQTT Library:  
    Paho-MQTT is a Python library for implementing MQTT clients.
 ```
-pip3 install paho-mqtt
+sudo apt-get install python3-paho-mqtt
+```
+
+5. Install the SMBus2 Module:    
+   A Python 3 module that provides bindings for the SMBus interface, which is commonly used for I2C communication.
+```
+sudo apt-get install python3-smbus2
 ```
 
 ## HA-Installation
